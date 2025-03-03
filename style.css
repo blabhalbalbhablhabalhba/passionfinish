@@ -1,0 +1,95 @@
+.idk {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.head {
+    align-self: center;
+    justify-content: center;
+    order: 1;
+    color: aliceblue;
+    text-align: center;
+}
+
+.para {
+    order: 2;
+    align-self: flex-end;
+    color:aliceblue;
+    padding: 10px;
+    border: 2px;
+    border-style: solid;
+}
+
+.img-info {
+    scale: 75%;
+    order: 2;
+    border: aliceblue solid 5px ;
+}
+
+
+.img-info2 {
+    scale: 75%;
+    order: 2;
+    border: aliceblue solid 5px ;
+}
+
+
+
+
+div {
+    padding: 10px;
+}
+
+
+
+
+img {
+    width: 300px;
+}
+body {
+    background-color: #113e62;
+    font-family: cursive;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.textone {
+    order: 3;
+    color: aliceblue;
+    border: 2px aliceblue solid; 
+    padding: 5px;
+    align-content: center;
+}
+
+.texttwo{
+    border: 2px aliceblue solid; 
+    padding: 5px;
+    align-content: center;
+    order: 1;
+    color: aliceblue;
+}
+
+.title, .footer, p {
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+  }
+
+
+.parallax {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("view-from-above-turquoise-ocean-waves-background-free-photo.jpg");
+
+}
